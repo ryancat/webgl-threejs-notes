@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    'example1': './example1.js'
+    'example': './example.js'
   },
 
   output: {
