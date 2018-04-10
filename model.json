@@ -1,0 +1,36 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "AC241F89-D0AB-4A8C-A860-949C3124C028",
+			"type": "TorusKnotBufferGeometry",
+			"radius": 1,
+			"tube": 0.4,
+			"tubularSegments": 64,
+			"radialSegments": 8,
+			"p": 2,
+			"q": 3
+		}],
+	"materials": [
+		{
+			"uuid": "6738EBA5-A613-4DF7-AFB7-CF8AA71F95E1",
+			"type": "MeshBasicMaterial",
+			"color": 16777215,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"wireframe": true
+		}],
+	"object": {
+		"uuid": "04DACCF5-954F-4954-BF1B-C6BFAC92B28E",
+		"type": "Mesh",
+		"name": "TorusKnot",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.697322,2.894239,-3.129228,1],
+		"geometry": "AC241F89-D0AB-4A8C-A860-949C3124C028",
+		"material": "6738EBA5-A613-4DF7-AFB7-CF8AA71F95E1"
+	}
+}

@@ -80,6 +80,18 @@ const initScene = () => {
   
   // box.name = 'box'
   scene.add(customWave)
+
+  const loader = new THREE.ObjectLoader()
+  loader.load('./model.json', (object) => {
+    console.log('geometry', object.geometry)
+    const something = new THREE.Mesh(object.geometry, material)
+    something.position.z = 60
+    something.position.y = 10
+    something.position.x = -15
+    scene.add(something)
+    render()
+  })
+
   render()
 }
 
